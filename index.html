@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Freelancer</title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Lato:wght@300;400;700;900&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="contenedor-hero">
+            <h1>Diseño y Desarrollo Freelancer</h1>
+            <p><i class="fa-solid fa-location-dot"></i> Medellín, Colombia</p>
+            <a href="#" class="boton">Contactar</a>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <main class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="contenedor-servicios">
+                <div class="servicio">
+                    <h3>Diseño Web</h3>
+                    <div class="iconos">
+                        <i class="fa-solid fa-pen-nib"></i>
+                    </div>
+                    <p>Duis iaculis pellentesque odio quis hendrerit. Fusce malesuada vehicula risus, quis feugiat odio ultrices nec.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Aplicaciones Móviles</h3>
+                    <div class="iconos">
+                        <i class="fa-brands fa-android"></i>
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <p>Duis iaculis pellentesque odio quis hendrerit. Fusce malesuada vehicula risus, quis feugiat odio ultrices nec.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Social Media</h3>
+                    <div class="iconos">
+                        <i class="fa-brands fa-instagram"></i>                    
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </div>
+                    <p>Duis iaculis pellentesque odio quis hendrerit. Fusce malesuada vehicula risus, quis feugiat odio ultrices nec.</p>
+                </div>
+            </div>
+        </main>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>                        
+            <form action="#">
+                <p>Contáctanos llenando todos los campos</p>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre">                    
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input type="tel" name="nombre" placeholder="Teléfono">                    
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo</label>
+                        <input type="mail" name="nombre" placeholder="Correo">                    
+                    </div>
+                    <div class="campo w-100">
+                        <label >Mensaje</label>
+                        <textarea></textarea>
+                    </div>
+                </div><!--Contenedor de campos-->
+                <div class="enviar">
+                    <input type="submit" class="boton" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </div>
+    
+</body>
+</html>
